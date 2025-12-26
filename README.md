@@ -8,6 +8,9 @@ High-Level Ideas:
 - text-text alignment with reasoning distillation from MLLMs (which layer do we manipulate alignment 1024 layer/FFN layer in transformer architecture? (most probably not the attention layer ofc))
 - Not sure how to measure text-text alignment as such or how to compare with image-image or image-text.
 
+My og thought process: https://docs.google.com/document/d/15WJied-S7sh3CfDdIAicxEbdJ09xj9rRBYvK6-Ds9Lo/edit?tab=t.0
+Results disorganized: https://docs.google.com/spreadsheets/d/1jWxUiCW3SAt7AEAttzhLwMEjERnz6ITQrs68aegMw-k/edit?gid=292252817#gid=292252817
+
 Experiments:
 - Setting: 2000 samples training out of 4795 waterbirds
 - cat vs not cat experiment CLIP TE (TE cannot differentiate well between the reps)
